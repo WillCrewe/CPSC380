@@ -1,0 +1,15 @@
+William Crewe
+CPSC380
+crewe@chapman.edu
+Assignment3
+
+
+Using semaphores to provide synchronization to allow for the see-saw simulator to work in the way that one person pushes all the way up to the max height
+Then the other person begins pushing back
+
+
+Compile Command
+g++ -std=c++0x assignment3_WC.cpp -o test -pthread
+
+Run 
+test
