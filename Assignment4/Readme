@@ -1,0 +1,15 @@
+William Crewe
+CPSC 380
+crewe@chapman.edu
+5/11/2021
+
+
+Using cycling priorities of the t1-t4 threads to simulate an RMS scheduling algorithm
+Using semaphores and the Scheduling function to change the priorities of each thread
+Running the program generated the nominal ouput
+Each thread runs its respective function, and loops through the amount of times needed, finding whether or not the doWork function completed by checking the amount of times it has done a calculation (which should be 100)
+Then prints the amount of times it was ran, and the amount of overruns based off of my logic
+
+
+To compile g++ -std=c++0x assignment4_WC.cpp -o test -pthread
+to run : test
