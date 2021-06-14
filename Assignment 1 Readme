@@ -1,8 +1,0 @@
-William Crewe
-CPSC380
-crewe@chapman.edu
-3/1/21
-
-Instructions 
-Command Line to run:
-g++ -std=c++0x assignment1_WC.cpp -o test -pthread
