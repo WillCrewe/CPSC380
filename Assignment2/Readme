@@ -1,1 +1,32 @@
+About the Assignment
 
+My code uses 3 threads to complete the task of finding the error within the given Sudoku Boards
+
+The three threads consists of
+  - Thread for finding errors within
+    - Rows
+    - Collumns
+    - Each of the 9 Squares
+    
+There are functions ran for each thread being
+- Square
+- Collumn
+- Row
+
+Other functions include
+- input_reader
+  -This reads the input csv and parses it into a 2 dimensional array
+- findMissing
+  -This finds the missing value in the row collumn or square where the error is to be able to give a hint to the user
+- errorFoundRow/errorFoundCollumn
+  - These functions are ran when an error is found, doing this allows there to be multiple errors to be found simultaneously and printed out accordingly
+- SquareRun
+  - This function is only used to input the bounds for each of the squares within a Soduko board
+  
+- Main
+  - Main is where the threads are initialized and joined when finished
+  
+  To compile and run:
+  
+  g++ -std=c++0x assignment2_WC.cpp -o test -pthread
+  test
